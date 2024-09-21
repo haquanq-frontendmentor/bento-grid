@@ -22,27 +22,16 @@ body {
     line-height: 1;
     -webkit-font-smoothing: antialiased;
 }
-img,
-picture,
-video,
-canvas,
-svg {
+img {
     display: block;
     max-width: 100%;
 }
-input,
-button,
-textarea,
-select {
-    font: inherit;
+p {
+    font-size: 1.125rem;
+    overflow-wrap: break-word;
 }
-p,
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2 {
     font-weight: var(--font-medium);
     overflow-wrap: break-word;
 }
