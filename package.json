@@ -2,7 +2,9 @@
   "name": "fm-bento-grid",
   "description": "Solution for frontendmentor.io challenge: bento-grid",
   "devDependencies": {
-    "browser-sync": "^3.0.2"
+    "browser-sync": "^3.0.2",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4"
   },
   "scripts": {
     "dev": "browser-sync start -s app -f app --no-ui"
