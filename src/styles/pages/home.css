@@ -1,4 +1,4 @@
-.main__container {
+.main-container {
   min-height: 100vh;
   padding-top: 2rem;
   padding-bottom: 2.5rem;
@@ -6,7 +6,7 @@
   background-color: #f5f5f5;
 }
 
-.main__wrapper {
+.main-wrapper {
   width: min(70rem, 100% - 2rem);
   margin: 0 auto;
   display: grid;
