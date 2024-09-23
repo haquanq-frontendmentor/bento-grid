@@ -169,6 +169,9 @@
 
 .ai-content {
   padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
   &__caption {
     margin-bottom: 1.5rem;
