@@ -156,6 +156,9 @@
   &__caption {
     margin-bottom: 1.5rem;
     max-width: 12ch;
+    &__highlight {
+      color: var(--clr-purple-500);
+    }
   }
 
   &__image {
