@@ -13,6 +13,11 @@
   gap: 2rem;
 }
 
+.subgrid {
+  display: grid;
+  gap: 2rem;
+}
+
 .grid__item {
   overflow: hidden;
   border-radius: 0.625rem;
