@@ -31,12 +31,12 @@ module.exports = {
         new MiniCssExtractPlugin(),
         new HtmlWebpackPlugin({
             filename: "index.html",
-            template: "app/index.html",
+            template: "src/index.html",
         }),
         new WebpackCopyPlugin({
             patterns: [
                 {
-                    from: "./app/assets/",
+                    from: "./src/assets/",
                     to: "assets/",
                 },
             ],
