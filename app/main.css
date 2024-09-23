@@ -72,3 +72,160 @@ h3 {
     display: grid;
     gap: 2rem;
 }
+
+.main__wrapper > * {
+    overflow: hidden;
+    border-radius: 0.625rem;
+    background-color: var(--clr-white);
+}
+
+.intro {
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: var(--clr-purple-500);
+}
+
+.intro__caption {
+    margin-bottom: 1.5rem;
+    color: var(--clr-white);
+}
+
+.intro__stars {
+    max-width: 12rem;
+    margin-bottom: 0.5rem;
+}
+
+.intro__caption__highlight {
+    color: var(--clr-yellow-500);
+}
+
+.intro__description {
+    color: var(--clr-yellow-100);
+}
+
+.platforms {
+    padding: 1rem;
+}
+
+.platforms__image {
+    margin-bottom: 1rem;
+    height: 66px;
+    width: 200%;
+    object-fit: contain;
+    object-position: left;
+}
+
+.post-schedule {
+    padding: 1rem;
+    background-color: var(--clr-yellow-500);
+}
+
+.post-schedule__caption {
+    width: 15ch;
+    margin-bottom: 1rem;
+}
+
+.post-schedule__image {
+    margin-bottom: -36px;
+    max-width: 13rem;
+}
+
+.post-timing {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--clr-purple-100);
+    padding: 2rem 1rem 2rem 1rem;
+}
+
+.post-timing__caption {
+    margin-bottom: 1.4375rem;
+}
+
+.post-timing__image {
+    aspect-ratio: 1.12773722628;
+    max-width: 19.3125rem;
+    margin-bottom: 1.5rem;
+}
+
+.post-timing__description {
+    max-width: 22ch;
+}
+
+.grow-followers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem;
+    background-color: var(--clr-purple-500);
+}
+
+.grow-followers__caption {
+    font-size: 2rem;
+    line-height: 1.75rem;
+    letter-spacing: -0.06em;
+    max-width: 10ch;
+    color: var(--clr-white);
+}
+
+.audience-growth {
+    padding: 1.5rem;
+}
+
+.audience-growth__caption {
+    margin-bottom: 1.5rem;
+}
+
+.audience-growth__caption__percent {
+    font-size: 2.875rem;
+    line-height: 2.625rem;
+    font-weight: var(--font-medium);
+    display: block;
+    margin-bottom: 0.9375rem;
+}
+
+.audience-growth__caption__text {
+    font-weight: var(--font-normal);
+}
+
+.audience-growth__image {
+    max-width: 11.1875rem;
+}
+
+.grow-followers__image {
+    max-width: 14.25rem;
+    margin-bottom: 2.5rem;
+}
+
+.schedule-content {
+    padding: 2rem;
+    background-color: var(--clr-yellow-100);
+}
+
+.schedule-content__caption {
+    margin-bottom: 1.5rem;
+    max-width: 12ch;
+}
+
+.schedule-content__image {
+    max-width: 12rem;
+}
+
+.ai-content {
+    padding: 1.5rem;
+    background-color: var(--clr-yellow-500);
+}
+
+.ai-content__caption {
+    margin-bottom: 1.5rem;
+    max-width: 12ch;
+}
+
+.ai-content__image {
+    max-width: 13.75rem;
+}
