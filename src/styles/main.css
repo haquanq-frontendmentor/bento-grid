@@ -1,3 +1,6 @@
+@import "./base/root.css";
+@import "./base/reset.css";
+@import "./base/typography.css";
 
 .main__container {
     min-height: 100vh;
