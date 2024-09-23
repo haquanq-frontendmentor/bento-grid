@@ -7,7 +7,7 @@ const WebpackCopyPlugin = require("copy-webpack-plugin");
 /** @type { import('webpack').Configuration } */
 module.exports = {
     mode: "development",
-    entry: "./app/main.css",
+    entry: "./src/styles/main.css",
     output: {
         path: path.resolve(__dirname, "dist"),
     },
