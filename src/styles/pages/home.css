@@ -11,12 +11,12 @@
   margin: 0 auto;
   display: grid;
   gap: 2rem;
+}
 
-  & > * {
-    overflow: hidden;
-    border-radius: 0.625rem;
-    background-color: var(--clr-white);
-  }
+.grid__item {
+  overflow: hidden;
+  border-radius: 0.625rem;
+  background-color: var(--clr-white);
 }
 
 .intro {
