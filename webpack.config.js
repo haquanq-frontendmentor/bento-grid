@@ -2,6 +2,7 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const WebpackRemoveEmptyScript = require("webpack-remove-empty-scripts");
+const WebpackCopyPlugin = require("copy-webpack-plugin");
 
 /** @type { import('webpack').Configuration } */
 module.exports = {
@@ -31,6 +32,14 @@ module.exports = {
         new HtmlWebpackPlugin({
             filename: "index.html",
             template: "app/index.html",
+        }),
+        new WebpackCopyPlugin({
+            patterns: [
+                {
+                    from: "./app/assets/",
+                    to: "assets/",
+                },
+            ],
         }),
     ],
 };
