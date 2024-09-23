@@ -37,10 +37,10 @@ Developed with mobile-first workflow.
 
 ### Built with
 
-| Tool   | Note                     |
-| ------ | ------------------------ |
-| `HTML` | Standard markup language |
-| `CSS`  | Style sheet language     |
+| Tool              | Note                                                            |
+| ----------------- | --------------------------------------------------------------- |
+| `HTML`            | Standard markup language                                        |
+| `CSS` + `PostCSS` | PostCSS allows using modern CSS utilities (nesting, mixins,...) |
 
 ## :astronaut: Working in `fm-interactive-card-details-form` repository
 
