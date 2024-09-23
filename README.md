@@ -41,6 +41,7 @@ Developed with mobile-first workflow.
 | ----------------- | --------------------------------------------------------------- |
 | `HTML`            | Standard markup language                                        |
 | `CSS` + `PostCSS` | PostCSS allows using modern CSS utilities (nesting, mixins,...) |
+| `Webpack`         | Bundler for deployment, live server for development             |
 
 ## :astronaut: Working in `fm-interactive-card-details-form` repository
 
