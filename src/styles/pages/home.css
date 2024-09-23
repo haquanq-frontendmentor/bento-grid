@@ -22,9 +22,6 @@
   overflow: hidden;
   border-radius: 0.625rem;
   background-color: var(--clr-white);
-  width: 100%;
-  max-width: 22rem;
-  justify-self: center;
 
   &--yellow {
     background-color: var(--clr-yellow-500);
