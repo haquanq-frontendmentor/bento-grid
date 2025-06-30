@@ -2,5 +2,5 @@ root = true
 
 [*]
 max_line_length = 100
-[*.{css}]
+[*.{css,js}]
 indent_size = 4
