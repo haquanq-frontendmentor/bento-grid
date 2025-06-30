@@ -11,7 +11,6 @@
     "postcss-import": "^16.1.0",
     "postcss-nested": "^6.2.0",
     "postcss-sort-media-queries": "^5.2.0",
-    "autoprefixer": "^10.4.20",
     "cssnano": "^7.0.6"
   },
   "author": "haquanq",
