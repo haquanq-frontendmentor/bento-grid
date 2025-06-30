@@ -2,7 +2,7 @@
   "name": "fm-bento-grid",
   "description": "Solution for frontendmentor.io challenge: bento-grid",
   "scripts": {
-    "dev": "parcel",
+    "dev": "parcel src/index.html --port 5000",
     "build": "parcel build"
   },
   "devDependencies": {
