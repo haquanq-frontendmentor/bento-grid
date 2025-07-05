@@ -1,14 +1,14 @@
 :root {
-  --clr-purple-100: hsl(254, 88%, 90%);
-  --clr-purple-500: hsl(256, 67%, 59%);
+    --color-purple-100: hsl(254, 88%, 90%);
+    --color-purple-500: hsl(256, 67%, 59%);
 
-  --clr-yellow-100: hsl(31, 66%, 93%);
-  --clr-yellow-500: hsl(39, 100%, 71%);
+    --color-yellow-100: hsl(31, 66%, 93%);
+    --color-yellow-500: hsl(39, 100%, 71%);
 
-  --clr-white: hsl(0, 0%, 100%);
-  --clr-black: hsl(0, 0%, 7%);
+    --color-white: hsl(0, 0%, 100%);
+    --color-black: hsl(0, 0%, 7%);
 
-  --font-main: "DM Sans", sans-serif;
-  --font-medium: 500;
-  --font-normal: 400;
+    --font-main: "DM Sans", sans-serif;
+    --font-medium: 500;
+    --font-normal: 400;
 }

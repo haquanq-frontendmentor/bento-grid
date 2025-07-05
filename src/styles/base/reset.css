@@ -1,20 +1,20 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-  margin: 0;
+    box-sizing: border-box;
+    margin: 0;
 }
 body {
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
 }
 img {
-  display: block;
-  max-width: 100%;
+    display: block;
+    max-width: 100%;
 }
 p,
 h1,
 h2,
 h3 {
-  overflow-wrap: break-word;
+    overflow-wrap: break-word;
 }
