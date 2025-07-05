@@ -12,9 +12,12 @@ img {
     display: block;
     max-width: 100%;
 }
-p,
 h1,
 h2,
 h3 {
+    overflow-wrap: break-word;
+    font-weight: var(--font-medium);
+}
+p {
     overflow-wrap: break-word;
 }
