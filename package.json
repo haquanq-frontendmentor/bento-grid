@@ -7,10 +7,19 @@
   "scripts": {
     "dev": "vite --port 5000",
     "build": "vite build",
-    "lint:css": "stylelint ./src/styles/**/*.css"
+    "lint:css": "stylelint ./src/styles/**/*.css",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.css": [
+      "prettier --write",
+      "stylelint --fix"
+    ]
   },
   "devDependencies": {
     "cssnano": "^7.0.6",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.2",
     "postcss": "^8.4.47",
     "postcss-import": "^16.1.0",
     "postcss-nested": "^6.2.0",
