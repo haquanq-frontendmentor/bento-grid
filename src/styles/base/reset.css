@@ -4,20 +4,26 @@
     box-sizing: border-box;
     margin: 0;
 }
+
 body {
     line-height: 1;
+    background-color: var(--color-gray-100);
+    font-family: var(--font-main);
     -webkit-font-smoothing: antialiased;
 }
+
 img {
     display: block;
     max-width: 100%;
 }
+
 h1,
 h2,
 h3 {
     overflow-wrap: break-word;
     font-weight: var(--font-medium);
 }
+
 p {
     overflow-wrap: break-word;
 }
