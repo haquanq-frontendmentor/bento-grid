@@ -20,6 +20,7 @@
         &--subtitle {
             font-size: var(--paragraph-size, 1rem);
             line-height: var(--paragraph-leading, 1.25);
+            letter-spacing: -0.01em;
         }
     }
 
