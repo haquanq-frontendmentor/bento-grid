@@ -5,29 +5,25 @@ This is a solution to the [Bento grid challenge on Frontend Mentor](https://www.
 ## Table of contents
 
 - [Project overview](#rocket-project-overview)
-- [My workflow](#boat-my-workflow)
-- [How to work in this repository](#astronaut-how-to-work-in-this-repository)
+- [Development workflow](#boat-development-workflow)
+- [Working in this repository](#astronaut-working-in-this-repository)
 - [License](#page_with_curl-license)
 
 ## :rocket: Project overview
 
 ### Challenge requirements
 
-Users should be able to:
-
 - View the optimal layout depending on their device's screen size
 
 ### Implemented features
 
-Accessibility features:
+Accessibility
 
-| Feature                                        | Progress               |
-| ---------------------------------------------- | ---------------------- |
-| Reponse optimally across different screen size | [ :white_check_mark: ] |
+- [x] Responsive accross different screen sizes
 
-### Screenshots
+### Preview
 
-![](./.docs/design/desktop-design.jpg)
+![](./docs/design/desktop-design.jpg)
 
 ## :boat: My workflow
 
@@ -37,13 +33,15 @@ Developed with mobile-first workflow.
 
 ### Built with
 
-| Tool              | Note                                                            |
-| ----------------- | --------------------------------------------------------------- |
-| `HTML`            | Standard markup language                                        |
-| `CSS` + `PostCSS` | PostCSS allows using modern CSS utilities (nesting, mixins,...) |
-| `Webpack`         | Bundler for deployment, live server for development             |
+| Tool            | Note                                                    |
+| --------------- | ------------------------------------------------------- |
+| `HTML`          | Standard markup language                                |
+| `CSS + PostCSS` | Vanilla CSS with sass like features (nestings, imports) |
+| `Vite`          | Development server, build tool                          |
+| `Prettier`      | Code formatting                                         |
+| `StyleLint`     | Enforce CSS conventions                                 |
 
-## :astronaut: Working in `fm-interactive-card-details-form` repository
+## :astronaut: Working in this repository
 
 ### Presequisites
 
@@ -76,4 +74,4 @@ npm run dev
 
 ## :page_with_curl: License
 
-This project follows [MIT License](./LICENSE). **Do not** use this project as your solution on [Frontend mentor](https://www.frontendmentor.io/solutions) as this will prove you are too lazy to complete anything in your life and you are a moron.
+This project follows [MIT License](./LICENSE). **DO NOT** use this project as your solution on [Frontend mentor](https://www.frontendmentor.io/solutions).
