@@ -1,6 +1,16 @@
 @import "./base/font.css";
-@import "./base/root.css";
+@import "./base/variables.css";
 @import "./base/reset.css";
-@import "./base/typography.css";
 
-@import "./pages/home.css";
+@import "./components/intro.css";
+
+.main {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__container {
+        width: min(100% - 2rem, 70rem);
+    }
+}

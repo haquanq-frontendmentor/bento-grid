@@ -1,0 +1,296 @@
+.intro {
+    --grid-gap: clamp(1.5rem, 1.2111rem + 1.2327vw, 2rem);
+
+    display: grid;
+    margin-inline: auto;
+    padding-block: 1.5rem;
+    gap: var(--grid-gap);
+
+    &__title {
+        color: var(--heading-color, var(--color-black));
+        font-size: var(--heading-size, 1.5rem);
+        line-height: var(--heading-leading, 1.25);
+        letter-spacing: var(--heading-tracking, -0.06em);
+        max-width: var(--heading-max-width, auto);
+
+        &--highlight {
+            color: var(--heading-highlight-color, var(--color-black));
+        }
+
+        &--subtitle {
+            font-size: var(--paragraph-size, 1rem);
+            line-height: var(--paragraph-leading, 1.25);
+        }
+    }
+
+    &__image {
+        margin: var(--image-margin, 0);
+        max-width: var(--image-max-width, 100%);
+        max-height: var(--image-max-height, none);
+    }
+
+    &__description {
+        color: var(--paragraph-color, var(--color-black));
+        font-size: var(--paragraph-size, 1rem);
+        line-height: var(--paragraph-leading, 1.25);
+    }
+
+    &__card {
+        overflow: hidden;
+        border-radius: 0.625rem;
+        background-color: var(--card-background-color, var(--color-white));
+        padding: var(--card-padding, 1rem);
+        margin: var(--card-margin, 0);
+        text-align: var(--card-text-align, initial);
+        grid-area: var(--card-grid-area, auto);
+
+        &--five-stars {
+            --card-padding: 2.5rem;
+            --card-text-align: center;
+            --card-background-color: var(--color-purple-500);
+            --heading-color: var(--color-white);
+            --heading-size: clamp(2.875rem, 2.2972rem + 2.4653vw, 3.875rem);
+            --heading-leading: clamp(2.625rem, 2.0472rem + 2.4653vw, 3.625rem);
+            --heading-tracking: -0.05em;
+            --heading-highlight-color: var(--color-yellow-500);
+            --paragraph-color: var(--color-white);
+            --paragraph-size: 1.125rem;
+            --paragraph-leading: 1.25rem;
+            --image-margin: 1.5rem auto 0.5rem;
+            --image-max-width: 12rem;
+        }
+
+        &--multiple-platforms {
+            --heading-size: clamp(1.625rem, 1.4083rem + 0.9245vw, 2rem);
+            --heading-leading: clamp(1.5rem, 1.3555rem + 0.6163vw, 1.75rem);
+            --image-margin: 0 0 1.25rem;
+            --image-max-width: auto;
+            --image-max-height: 4.1875rem;
+        }
+
+        &--consistent-schedule {
+            --card-background-color: var(--color-yellow-500);
+            --heading-size: clamp(1.625rem, 1.4083rem + 0.9245vw, 2rem);
+            --heading-leading: clamp(1.5rem, 1.3555rem + 0.6163vw, 1.75rem);
+            --image-margin: 1rem 0 -2rem;
+            --image-max-width: 65%;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        &--schedule-posts {
+            --card-padding: 1.5rem 1rem;
+            --card-background-color: var(--color-purple-100);
+            --card-text-align: center;
+            --heading-size: clamp(1.625rem, 1.4083rem + 0.9245vw, 2rem);
+            --heading-leading: clamp(1.5rem, 1.3555rem + 0.6163vw, 1.75rem);
+            --paragraph-size: 1.125rem;
+            --paragraph-leading: 1.25rem;
+            --image-margin: 1.5rem 0;
+        }
+
+        &--grow-followers {
+            --card-background-color: var(--color-purple-500);
+            --card-padding: 1.5rem 3.625rem;
+            --card-text-align: center;
+            --heading-size: clamp(2rem, 1.7111rem + 1.2327vw, 2.5rem);
+            --heading-leading: clamp(1.75rem, 1.4611rem + 1.2327vw, 2.25rem);
+            --heading-color: var(--color-white);
+            --image-margin: 0 0 2.5rem;
+        }
+
+        &--audience-growth {
+            --card-padding: 1.5rem;
+            --heading-size: clamp(2.875rem, 2.2972rem + 2.4653vw, 3.875rem);
+            --heading-leading: 2.625rem;
+            --heading-tracking: -0.05em;
+            --paragraph-size: 1.125rem;
+            --paragraph-leading: 1.25rem;
+            --image-margin: 1.5rem 0 0;
+            --image-max-width: 11.125rem;
+
+            .intro__title {
+                display: flex;
+                flex-direction: column;
+                gap: clamp(1rem, 0.7111rem + 1.2327vw, 1.5rem);
+            }
+        }
+
+        &--create-post {
+            --card-background-color: var(--color-yellow-100);
+            --card-padding: 1.5rem;
+            --heading-size: clamp(2rem, 1.7111rem + 1.2327vw, 2.5rem);
+            --heading-leading: clamp(1.75rem, 1.4611rem + 1.2327vw, 2.25rem);
+            --heading-highlight-color: var(--color-purple-500);
+            --heading-max-width: 7ch;
+            --image-margin: 1.5rem 0 0;
+            --image-max-width: 11.875rem;
+        }
+
+        &--ai-content {
+            --card-background-color: var(--color-yellow-500);
+            --card-padding: 1.5rem;
+            --heading-size: clamp(2rem, 1.7111rem + 1.2327vw, 2.5rem);
+            --heading-leading: clamp(1.75rem, 1.4611rem + 1.2327vw, 2.25rem);
+            --heading-max-width: 7ch;
+            --image-margin: 1.5rem 0 0;
+            --image-max-width: 13.75rem;
+        }
+    }
+}
+
+@media screen and (min-width: 34em) {
+    .intro {
+        grid-template-columns: 1fr 1fr;
+
+        &__card {
+            &--five-stars {
+                grid-column: span 2;
+            }
+
+            &--consistent-schedule {
+                --image-max-width: 100%;
+            }
+
+            &--schedule-posts {
+                text-align: start;
+                grid-column: 2/3;
+                grid-row: 2/4;
+            }
+
+            &--grow-followers {
+                --image-max-width: 14.25rem;
+                --image-margin: 0;
+                --card-padding: 1.4375rem 1.5rem;
+                --card-text-align: start;
+
+                grid-column: 1/3;
+                display: flex;
+                align-items: center;
+                gap: 0.6875rem;
+            }
+
+            &--audience-growth {
+                --image-margin: 0;
+
+                grid-column: 1/3;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 2rem;
+                align-items: center;
+            }
+
+            &--create-post {
+                --image-max-width: 100%;
+            }
+
+            &--ai-content {
+                --image-max-width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 48em) {
+    .intro {
+        grid-template-columns: 1fr 1fr 1fr;
+
+        &__card {
+            &--schedule-posts {
+                --card-padding: 1.5rem;
+                --image-max-width: none;
+                --image-max-height: 19.9375rem;
+            }
+
+            &--audience-growth {
+                --card-padding: 2rem 1.5rem 1.5rem;
+
+                grid-row: 4 / 5;
+                grid-column: 1 / 1;
+                grid-template-columns: 1fr;
+            }
+
+            &--grow-followers {
+                grid-column: 2 / span 2;
+            }
+
+            &--create-post {
+                --heading-tracking: -0.08em;
+
+                grid-column: 1 / 2;
+                grid-row: 1/2;
+            }
+
+            &--ai-content {
+                --heading-tracking: -0.08em;
+
+                grid-column: 1/2;
+                grid-row: 2/4;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 64em) {
+    .intro {
+        margin-top: 1.125rem;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto repeat(2, calc(calc(15.4375rem - var(--grid-gap)) / 2)) 15.375rem;
+
+        &__card {
+            &--five-stars {
+                --card-padding: 3.875rem 2.5rem;
+            }
+
+            &--schedule-posts {
+                --card-padding: 3.125rem 2rem;
+
+                grid-column: 4/5;
+                grid-row: 1 /4;
+            }
+
+            &--multiple-platforms {
+                --card-padding: 1.5rem;
+
+                grid-row: span 2;
+            }
+
+            &--consistent-schedule {
+                --card-padding: 1.5rem;
+
+                grid-row: span 2;
+            }
+
+            &--grow-followers {
+                --heading-tracking: -0.05em;
+
+                grid-column: 3 / span 2;
+            }
+
+            &--audience-growth {
+                grid-template-columns: 1fr;
+                grid-column: 2/3;
+                grid-row: 4/ 5;
+            }
+
+            &--create-post {
+                --card-margin: 0 0 3.0625rem;
+                --card-padding: 4.9375rem 2rem 0;
+                --heading-tracking: -0.1em;
+
+                grid-row: 1/3;
+            }
+
+            &--ai-content {
+                --image-margin: 3.5rem 0 0;
+                --card-padding: 1.5rem 0.75rem 1.5rem 1.5rem;
+                --card-margin: -3.0625rem 0 0;
+                --heading-tracking: -0.1em;
+
+                grid-row: 3/5;
+            }
+        }
+    }
+}
