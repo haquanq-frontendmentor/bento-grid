@@ -2,5 +2,5 @@
 export default {
     root: "src/",
     build: { outDir: "../dist/", emptyOutDir: true },
-    base: "/fm-bento-grid/",
+    base: "/bento-grid/",
 };
