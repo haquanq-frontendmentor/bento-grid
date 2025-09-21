@@ -1,4 +1,4 @@
-## Frontend Mentor - Bento grid solution
+## Frontend Mentor - Bento Grid Solution
 
 This is a solution to the [Bento grid challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/bento-grid-RMydElrlOj). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
@@ -20,19 +20,19 @@ This is a solution to the [Bento grid challenge on Frontend Mentor](https://www.
   /></a>
 </p>
 
-## Table of contents
+## Table of Contents
 
 - [Project overview](#sunrise-project-overview)
 - [Development workflow](#stars-development-workflow)
 - [Working in this repository](#astronaut-working-in-this-repository)
 
-## :sunrise: Project overview
+## :sunrise: Project Overview
 
-### Challenge requirements
+### Challenge Requirements
 
 - View the optimal layout depending on their device's screen size
 
-### Todo
+### Status
 
 Accessibility
 
@@ -42,52 +42,45 @@ Accessibility
 
 ![](./docs/design/desktop-design.jpg)
 
-## :stars: Development workflow
+## :stars: Tech Stack and Approach
+
+### Built With
+
+- **HTML5** – Semantic structure
+- **CSS Grid & Flexbox** – Layout
+- **PostCSS** – Nested rules, custom media queries, future CSS features, minification
+- **Stylelint** – CSS linting, code style consistency
+- **Vite** - Fast development server, production build and easy configuration
 
 ### Approach
 
-Site built with mobile-first workflow to prioritize mobile devices, made accessible using [ARIA Authoring Practices Guide (APG)](https://www.w3.org/WAI/ARIA/apg/).
+- Mobile-first workflow for better performance on smaller devices
+- Accessibility guided by [ARIA Authoring Practices Guide (APG)](https://www.w3.org/WAI/ARIA/apg/)
 
-### Tools
+## :leaves: Local Development
 
-- **PostCSS:** use SASS-like features in vanilla CSS, interpolation and minification..
-- **JavaScript**: add interactivity for components, handle application logic.
-- **Vite**: fast development server, production build and easy configuration.
-- **Prettier**: code formatter to maintain consistent coding style.
-- **Stylelint**: lint for CSS coding convention mistakes.
-- **Husky + lint-staged**: manage git hooks (primary used for pre-commit hook: linting, formatting).
+### Prerequisites
 
-### Deployment
+Install the following:
 
-- Deployed on github page using Github Actions (manually triggered).
+- Git (latest version)
+- Node.js (latest LTS recommended)
+- pnpm (latest version)
 
-## :astronaut: Working in this repository
-
-### Presequisites
-
-Having these tools installed:
-
-- Git (prefer lastest LTS version)
-- NodeJS (prefer latest LTS version)
-
-### Clone this project to your machine
-
-Open new terminal, run the following command:
+### Setup
 
 ```
 git clone https://github.com/haquanq-frontendmentor/bento-grid.git
+cd bento-grid
+pnpm install
 ```
 
-Then, run `npm install` to install all dependencies.
+### Start Development Server
 
 ```
-npm install
+pnpm dev
 ```
 
-### Start development server
+## :maple_leaf: Deployment
 
-In terminal, run `npm run dev` to start development server:
-
-```
-npm run dev
-```
+Deployed to Github Pages via Github Actions (manually triggered).
