@@ -1,7 +1,14 @@
 {
-  "favorite": false,
-  "color:": "#FFDA66",
+  "name": "Bento Grid",
+  "featured": false,
+  "colors": {
+    "brand": "#FFDA66"
+  },
+  "images": {
+    "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/bento-grid/main/docs/preview.jpg"
+  },
   "frontendmentor": {
+    "difficulty": "junior",
     "challengeUrl": "https://www.frontendmentor.io/challenges/bento-grid-RMydElrlOj",
     "solutionUrl": "https://www.frontendmentor.io/solutions/responsive-grid-with-a-lot-of-custom-modifications-that-make-me-feel-UM6jMutJrb"
   }
