@@ -1,6 +1,6 @@
 {
   "name": "Bento Grid",
-  "featured": false,
+  "featured": true,
   "colors": {
     "brand": "#FFDA66"
   },
